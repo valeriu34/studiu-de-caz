@@ -1,25 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studiu de caz github</title>
+    <meta name="description" content="Despre GitHub Projects - Planificarea și urmărirea cu proiecte">
+    <title>Despre GitHub Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f8fa;
+            color: #24292f;
+        }
+
+        header {
+            background-color: #24292f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            color: #24292f;
+        }
+
+        section p {
+            line-height: 1.6;
+            color: #586069;
+        }
+
+        section ul {
+            padding-left: 20px;
+            color: #586069;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid #d1d5da;
+            width: 100%;
+            max-width: 300px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin: 0;
+            font-size: 1.4rem;
+        }
+
+        .card p {
+            margin-top: 10px;
+        }
+
+        .footer {
+            background-color: #24292f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9rem;
+        }
+
+        .icon {
+            margin-right: 8px;
+        }
+
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Creating a project</h1> 
-        <p>
-           
-Learn how to create an organization or user project.
+    <header>
+        <h1>GitHub Projects - Despre Proiecte</h1>
+        <nav>
+            <ul>
+                <li><a href="#despre">Despre</a></li>
+                <li><a href="#creare">Creare Proiect</a></li>
+                <li><a href="#gestiune">Gestiune Proiecte</a></li>
+                <li><a href="#resurse">Resurse</a></li>
+            </ul>
+        </nav>
+    </header>
 
-In this article
-Creating a project
-Updating your project description and README
-Further reading
-Projects are an adaptable collection of items that stay up-to-date with GitHub data. Your projects can track issues, pull requests, and ideas that you note down. You can add custom fields and create views for specific purposes.
+    <main>
+        <section id="despre">
+            <h2><i class="fas fa-info-circle icon"></i> Ce sunt Proiectele GitHub?</h2>
+            <p>GitHub Projects oferă o modalitate eficientă de a planifica și organiza fluxurile de lucru ale echipelor de dezvoltare software. Acestea permit utilizatorilor să creeze tabele de sarcini vizibile, să urmărească progresul proiectului și să colaboreze mai ușor folosind carduri și coloane personalizabile.</p>
+        </section>
 
-You can also choose to use an existing project as a template and copy the views and custom fields to a new project. For more information, see Copying an existing project.
-        </p>
-    </div>
+        <section id="creare">
+            <h2><i class="fas fa-plus-circle icon"></i> Cum se creează un Proiect pe GitHub?</h2>
+            <p>Pentru a crea un proiect pe GitHub, urmează pașii de mai jos:</p>
+            <ul>
+                <li>Accesează tab-ul "Projects" al unui depozit GitHub.</li>
+                <li>Alege „New Project” pentru a crea un proiect nou.</li>
+                <li>Poți opta pentru un proiect gol sau pentru un șablon existent, ca să începi rapid.</li>
+                <li>Adaugă carduri și organizează-le în coloane pentru a reflecta statusul sarcinilor (ex: 'To Do', 'In Progress', 'Done').</li>
+            </ul>
+        </section>
+
+        <section id="gestiune">
+            <h2><i class="fas fa-cogs icon"></i> Gestionarea Proiectelor pe GitHub</h2>
+            <p>După crearea unui proiect, poți să îți gestionezi sarcinile și activitățile utilizând carduri și coloane. Poți adăuga membri ai echipei, să aloci etichete, să setezi termene limită și să monitorizezi progresul în timp real. GitHub Projects permite integrarea cu Issues și Pull Requests, pentru a urmări mai ușor sarcinile legate de codul sursă.</p>
+        </section>
+
+        <section id="resurse">
+            <h2><i class="fas fa-book icon"></i> Resurse utile</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Documentație Oficială</h3>
+                    <p>Explorează documentația oficială GitHub pentru a înțelege în detaliu cum să folosești GitHub Projects.</p>
+                    <a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects" target="_blank">Citește mai mult &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Șabloane GitHub Projects</h3>
+                    <p>Folosește șabloane predefinite pentru a începe rapid și a organiza proiectele eficient.</p>
+                    <a href="https://github.com/github/project-management" target="_blank">Citește mai mult &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Introducere în GitHub Projects</h3>
+                    <p>Află cum să creezi și să gestionezi proiecte pe GitHub într-un ghid pas cu pas.</p>
+                    <a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-projects" target="_blank">Citește mai mult &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 GitHub, Inc. - Toate drepturile rezervate.</p>
+    </footer>
 </body>
 </html>
